@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>input students</title>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h2 class="container__title">Form Siswa</h2>
+        <div class="container__group">
+          <input
+            class="container__input"
+            type="text"
+            id="input1"
+            placeholder="ketikkan Nama....."
+          />
+          <p class="container__iconPlus">+</p>
+          <input
+            class="container__input--2"
+            type="text"
+            id="input2"
+            placeholder="Ketikkan jurusan....."
+          />
+
+          <button class="container__button" id="btnSubmit">add</button>
+          <button class="container__buttonCancel" id="btnCancel">Cancel</button>
+        </div>
+      </div>
+    </form>
+    <ul class="list__student" id="listStudents">
+      <h3 class="list__student__title" id="titleUl">Data List Students</h3>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>

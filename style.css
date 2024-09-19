@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --color-bg-container: #eeee;
+  --color-first: #508c9b;
+  --color-second: #201e43;
+  --color-third: #134b70;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 206, 255, 1) 0%,
+    rgba(0, 91, 255, 1) 100%
+  );
+  border-radius: 7px;
+  margin: 5rem auto;
+  margin-bottom: -5rem;
+  padding: 30px;
+  width: 60rem;
+  height: 10rem;
+  color: #fff;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.212);
+}
+
+.container__group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container__title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-decoration: 1px underline;
+}
+
+.container__iconPlus {
+  margin-bottom: 10px;
+  margin-left: -5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container__input {
+  padding: 5px;
+  padding-right: 10rem;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  outline: none;
+}
+.container__input--2 {
+  padding: 5px;
+  padding-right: 10rem;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  outline: none;
+}
+
+.container__input:focus {
+  box-shadow: 0px 0px 5px 5px #80a2ffee;
+}
+.container__input--2:focus {
+  box-shadow: 0px 0px 5px 5px #80a2ffee;
+}
+
+.container__button {
+  border: none;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.container__button:active {
+  background-color: #eee;
+}
+
+.container__buttonCancel {
+  border: none;
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.container__buttonCancel:active {
+  background-color: #eee;
+}
+
+/* section ul */
+.list__student {
+  background-color: #eee;
+  border-radius: 7px;
+  margin: 100px auto;
+  padding: 30px;
+  width: 60rem;
+  max-height: 50%;
+  color: var(--color-second);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.212);
+  text-decoration: none;
+  display: none;
+  list-style: none;
+}
+
+.list__student__title {
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+}
+
+.textJurusan {
+  margin-left: 10%;
+}
+
+#checkbox {
+  margin: -1rem 10px 0 0;
+}
+
+.button__delete {
+  position: relative;
+  left: 70%;
+  border: none;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+  background-color: #e40000;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.button__delete:active {
+  background-color: #c90000;
+}
+
+.button__edit {
+  position: relative;
+  font-size: 15px;
+  left: 59%;
+  border: none;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+  background-color: #0055df;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.button__edit:active {
+  background-color: #004bc5;
+}
+
+.textSpan {
+  margin-left: -15%;
+}
