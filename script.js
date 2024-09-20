@@ -30,7 +30,7 @@ function createCheckbox(student, index) {
 
 function createTextName(student) {
   const textName = document.createElement("p");
-  textName.textContent = `name: ${student.name}`;
+  textName.textContent = `Name: ${student.name}`;
   textName.style.textDecoration = student.isCompleted ? "line-through" : "none";
 
   return textName;
@@ -38,7 +38,8 @@ function createTextName(student) {
 
 function createTextJurusan(student) {
   const textJurusan = document.createElement("p");
-  textJurusan.textContent = `jurusan: ${student.jurusan}`;
+  textJurusan.textContent = `Jurusan: ${student.jurusan}`;
+  textJurusan.style.marginLeft = "10px";
   textJurusan.style.textDecoration = student.isCompleted
     ? "line-through"
     : "none";
